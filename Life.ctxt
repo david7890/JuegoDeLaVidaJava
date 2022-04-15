@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Life
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Life\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=b
+comment1.target=void\ initializeBoard(Board)
+comment1.text=\r\n\ The\ intializeBoard\ static\ method\ sets\ up\ the\ initial\ board\ with\ a\ \r\n\ random\ set\ of\ cells.\r\n\ @param\ board\ a\ Board,\ typically\ empty\r\n
+comment2.params=board
+comment2.target=void\ displayBoard(Board)
+comment2.text=\r\n\ The\ static\ displayBoard\ method\ displays\ the\ board\ on\ screen.\ A\ Board\r\n\ is\ a\ 2-dimensional\ int[][]\ array,\ so\ for\ the\ display\ to\ include\ other\r\n\ characters--"."\ and\ "0",\ for\ example--characters\ will\ need\ to\ be\ printed\r\n\ on\ the\ screen\ after\ checking\ the\ int\ value\ of\ that\ location.\r\n\ @param\ board\ the\ board\ to\ be\ displayed\r\n
+comment3.params=b\ nextB
+comment3.target=void\ calculateNextGeneration(Board,\ Board)
+comment3.text=\r\n\ The\ static\ calculateNextGeneration\ method\ takes\ the\ current\ board\ and\ \r\n\ a\ new\ (empty)\ board\ and\ calculates\ the\ next\ generation\ for\ that\ second\r\n\ board\ based\ on\ the\ standard\ rules\ of\ Conway's\ Life\:\r\n\ 1.\ existing\ cell\ dies\ if\ fewer\ than\ 2\ neighbors\ (underpopulation)\r\n\ 2.\ existing\ cell\ lives\ if\ 2-3\ neighbors\ ("these\ neighbors\ are\ JUST\ RIGHT\!")\r\n\ 3.\ existing\ cell\ dies\ if\ greater\ than\ 3\ neighbors\ (overpopulation)\r\n\ 4.\ empty\ cell\ becomes\ alive\ if\ exactly\ 3\ neighbors\ (because...?)\r\n\ \r\n\ @param\ b\ the\ current\ board\r\n\ @param\ nextB\ a\ board\ with\ the\ new\ generation\ on\ it\r\n
+comment4.params=row\ col\ b
+comment4.target=int\ countNeighbors(int,\ int,\ Board)
+comment4.text=\r\n\ The\ static\ method\ countNeighbors\ counts\ the\ eight\ cells\ around\ a\ given\ \r\n\ cell,\ making\ sure\ not\ to\ count\ outside\ of\ the\ bounds\ of\ the\ array\ and\ \r\n\ not\ to\ count\ the\ current\ cell\ itself\!\r\n\ @param\ row\ the\ row\ of\ the\ current\ cell\r\n\ @param\ col\ the\ col\ of\ the\ current\ cell\r\n\ @param\ b\ the\ board\ we're\ investigating\r\n\ @return\ the\ number\ of\ non-zero\ neighbors\ (minimum\ 0,\ maximum\ 8)\r\n
+comment5.params=board\ nextBoard
+comment5.target=void\ transferNextToCurrent(Board,\ Board)
+comment5.text=\r\n\ The\ static\ method\ transferNextToCurrent\ takes\ the\ board\ with\ the\ \r\n\ next\ generation\ and\ copies\ it\ to\ the\ board\ for\ this\ generation\ so\ \r\n\ that\ we\ can\ continue\ displaying\ and\ analyzing\ generations.\r\n\ @param\ board\ the\ current\ board\ that\ we\ will\ copy\ to\r\n\ @param\ nextBoard\ the\ next\ board\ containing\ a\ calculated\ new\ generation\r\n
+comment6.params=
+comment6.target=void\ clearConsole()
+comment6.text=\r\n\ The\ clearConsole\ method\ attempts\ to\ clear\ the\ Terminal\ so\ that\r\n\ successive\ generations\ of\ the\ board\ can\ be\ displayed\r\n
+comment7.params=TIME_DELAY
+comment7.target=void\ slow(int)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

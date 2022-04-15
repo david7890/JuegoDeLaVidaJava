@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=rows\ cols
+comment1.target=Board(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Board\r\n\ An\ empty\ board\ is\ initialized\ to\ 0s.\r\n\ @param\ rows\ the\ number\ of\ rows\ in\ the\ Board\r\n\ @param\ cols\ the\ number\ of\ columns\ in\ the\ Board\r\n
+comment2.params=row\ col
+comment2.target=int\ get(int,\ int)
+comment2.text=\r\n\ El\ m\u00E9todo\ get\ devuelve\ el\ valor\ almacenado\ \r\n\ en\ la\ ubicaci\u00F3n\ especificada\ fila,col.\r\n\ @param\ row\ The\ row\ of\ the\ grid\r\n\ @param\ col\ The\ column\ of\ the\ grid\r\n\ @return\ the\ int\ value\ stored\ at\ that\ row,col\r\n
+comment3.params=row\ col\ value
+comment3.target=void\ set(int,\ int,\ int)
+comment3.text=\r\n\ The\ set\ method\ sets\ the\ specified\ row,col\ location\ to\ \r\n\ the\ specified\ value\r\n\ @param\ row\ The\ row\ of\ the\ grid\r\n\ @param\ col\ The\ column\ of\ the\ grid\r\n\ @param\ value\ The\ int\ value\ to\ be\ stored\ at\ row,col\r\n
+comment4.params=
+comment4.target=int\ getRows()
+comment4.text=\r\n\ The\ getRows\ method\ returns\ the\ number\ of\ rows\ (the\ height)\ \r\n\ of\ the\ grid\r\n\ @return\ the\ rows\ (height)\ of\ the\ grid\r\n
+comment5.params=
+comment5.target=int\ getCols()
+comment5.text=\r\n\ The\ getCols\ method\ returns\ the\ number\ of\ columns\ (the\ width)\ \r\n\ of\ the\ grid\r\n\ @return\ the\ columns\ (width)\ of\ the\ grid\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ The\ toString\ method\ returns\ a\ String\ that\ can\ be\ printed\ to\ \r\n\ display\ the\ grid\r\n\ @return\ a\ String\ representing\ the\ grid\r\n
+numComments=7
